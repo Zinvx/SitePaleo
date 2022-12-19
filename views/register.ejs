@@ -1,0 +1,45 @@
+<%- include('partials/header.ejs', {user}); %>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/registro.css">
+    <script src="http://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="registro">
+    <form method="post">
+    <h2 class="tittle">Faça o cadastro</h2>
+    <label for="username">Nome de usuário</label>
+    <div class="input">
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        <input id="username" name="username" placeholder="Username" type="text">
+    </div>
+
+    <label for="email">Email</label>
+    <div class="input">
+        <i class="far fa-envelope"></i>
+        <input id="email" name="email" placeholder="Email" type="text">
+    </div>
+
+    <label for="senha">Senha</label>
+    <div class="input">
+        <i class="fas fa-lock"></i>
+        <input id="senha" name="password" placeholder="Password" type="password">
+    </div>
+
+    <div id="btn">
+        <button type="submit">Cadastrar</button>
+        <h5>Já tem um login?</h5><a href="/login">Logar</a>
+    </div>
+    </form>
+    
+
+</div>
+     
+        </body>
+

@@ -1,0 +1,77 @@
+<%- include('partials/header.ejs', {user}); %>
+
+  <main class="container shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="p-4 p-md-4 mb-4 rounded text-bg-secondary ">
+      <div class="col-md-10 px-1">
+        <h1 class="display-3 fst-italic">Um site pensado e desenvolvido para pesquisa e conhecimentos da paleontologia.</h1>
+        <p class="lead my-3">Utilize nossa ferramenta de busca para encontrar espécies de dinossauros descobertos pelo homem ao redor do mundo.</p>
+        <p class="lead mb-0"><a href="/info" class="text-white fw-bold">Continuar lendo...</a></p>
+      </div>
+    </div>
+  
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Brasil</strong>
+            <h3 class="mb-0">Novo dinossauro encontrado</h3>
+            <div class="mb-1 text-muted">Out 22</div>
+            <p class="card-text mb-auto">Pesquisadores da Universidade Federal de Pernambuco, apresentaram um novo fóssil da unidade geológica Formação Romualdo no Ceará...</p>
+            <a href="/not1" class="stretched-link">Continuar lendo</a>
+          </div>
+            <div class="col-auto d-none d-lg-block">
+              <img class="bd-placeholder-img" width="200" height="250" src="/images/utah.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-danger">EUA</strong>
+            <h3 class="mb-0">Fóssil remontado</h3>
+            <div class="mb-1 text-muted">Abr 11</div>
+            <p class="mb-auto">Paleontólogos da University of Nevada, descobriram uma nova ossada que permitiu a reformulação de um fóssil que se acreditava ter sido completo...</p>
+            <a href="/not2" class="stretched-link">Continuar lendo</a>
+          </div>
+            <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="/images/trike.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/> 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Brasil</strong>
+            <h3 class="mb-0">Dinossauro anão</h3>
+            <div class="mb-1 text-muted">Dez 16</div>
+            <p class="mb-auto">Cientistas descobrem nova espécie de dinossauro anão no interior de SP...</p>
+            <a href="/not3" class="stretched-link">Continuar lendo</a>
+          </div>
+            <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="/images/anao.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/> 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-warning">Alemanha</strong>
+            <h3 class="mb-0">Fóssil ilegal</h3>
+            <div class="mb-1 text-muted">Jun 02</div>
+            <p class="mb-auto">Museu alemão terá de devolver fóssil de dinossauro levado ilegalmente do Brasil...</p>
+            <a href="/not4" class="stretched-link">Continuar lendo</a>
+          </div>
+            <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="/images/extravio.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/> 
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+</main>
+
+<%- include('partials/footer.ejs', {user}) %>
+  
+
+

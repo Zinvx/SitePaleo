@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #7D7070;
+  border-bottom:3px solid black;
+  padding: 3px 10px;
+}
+
+.menu-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul{
+  list-style-type: none;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+header ul li{
+ margin:10px;
+ display: inline;
+}
+
+header ul li a{
+  text-decoration: none;
+  color:black;
+}
+
+header ul li a:hover{
+ color:white
+}
+
+#divBusca {
+  background: #b4a4a4;
+  border-radius: 20px;
+  width: 250px;
+  padding: 5px;
+}
+
+#txtBusca{
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 210px;
+}
+
+input:focus{
+  outline: none;
+}
+
+footer {
+  background-color: #7D7070;
+  border-top: 3px solid black;
+  padding: 2px 0; 
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  top: 0;
+}
+
+main {
+  margin: 50px;
+}
+
+#gera {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+#informa {
+  text-align: center;
+}
+
+body {
+  width:100%;
+  height: 100vh;
+
+}

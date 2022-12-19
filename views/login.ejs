@@ -1,0 +1,37 @@
+<%- include('partials/header.ejs', {user}); %>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="http://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="login">
+    <form method="post">
+    <h2 class="tittle">Faça o login</h2>
+    <label for="email">Email</label>
+    <div class="input">
+        <i class="far fa-envelope"></i>
+        <input id="email" name="email" placeholder="Email" type="text">
+    </div>
+
+    <label for="senha">Senha</label>
+    <div class="input">
+        <i class="fas fa-lock"></i>
+        <input id="senha" name="password" placeholder="Password" type="password">
+    </div>
+
+    <div id="btn">
+        <button type="submit">Logar</button>
+        <h5>Não tem login?</h5><a href="/register">Cadastrar-se</a>
+    </div>
+    </form>
+    
+
+</div>
+     
+        </body>
